@@ -29,7 +29,7 @@ fi
 
 echo "Configure options: $CONFIGURE_OPTIONS"
 
-./configure --cc=/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/i686-apple-darwin10-gcc-4.2.1 --as="$SCRIPT_DIR/gas-preprocessor.pl /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/i686-apple-darwin10-gcc-4.2.1" --sysroot=/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk --extra-cflags="-mdynamic-no-pic" --prefix="dist" $CONFIGURE_OPTIONS
+./configure --cc=/Developer2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/i686-apple-darwin10-gcc-4.2.1 --as="$SCRIPT_DIR/gas-preprocessor.pl /Developer2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/i686-apple-darwin10-gcc-4.2.1" --sysroot=/Developer2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk --extra-cflags="-mdynamic-no-pic" --prefix="dist" $CONFIGURE_OPTIONS
 
 make && make install
 
